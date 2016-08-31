@@ -1,0 +1,39 @@
+[submodule ".vim/bundle/ctrlp.vim"]
+    path = .vim/bundle/ctrlp.vim
+    url = git://github.com/ctrlpvim/ctrlp.vim.git
+[submodule ".vim/bundle/editorconfig-vim"]
+    path = .vim/bundle/editorconfig-vim
+    url = git://github.com/editorconfig/editorconfig-vim.git
+[submodule ".vim/bundle/lightline.vim"]
+    path = .vim/bundle/lightline.vim
+    url = git://github.com/itchyny/lightline.vim
+[submodule ".vim/bundle/nerdtree"]
+    path = .vim/bundle/nerdtree
+    url = git://github.com/scrooloose/nerdtree.git
+[submodule ".vim/bundle/syntastic"]
+    path = .vim/bundle/syntastic
+    url = git://github.com/scrooloose/syntastic.git
+[submodule ".vim/bundle/tabline.vim"]
+    path = .vim/bundle/tabline.vim
+    url = git://github.com/mkitt/tabline.vim.git
+[submodule ".vim/bundle/tmuxline.vim"]
+    path = .vim/bundle/tmuxline.vim
+    url = git://github.com/edkolev/tmuxline.vim
+[submodule ".vim/bundle/typescript-vim"]
+    path = .vim/bundle/typescript-vim
+    url = git://github.com/leafgarland/typescript-vim.git
+[submodule ".vim/bundle/vim-javascript"]
+    path = .vim/bundle/vim-javascript
+    url = git://github.com/pangloss/vim-javascript.git
+[submodule ".vim/bundle/vim-js-indent.git"]
+    path = .vim/bundle/vim-js-indent.git
+    url = git://github.com/jason0x43/vim-js-indent.git
+[submodule ".vim/bundle/vim-nerdtree-tabs"]
+    path = .vim/bundle/vim-nerdtree-tabs
+    url = git://github.com/jistr/vim-nerdtree-tabs.git
+[submodule ".vim/bundle/vimproc.vim"]
+    path = .vim/bundle/vimproc.vim
+    url = git://github.com/Shougo/vimproc.vim.git
+[submodule "home/.vim/bundle/vim-markdown"]
+    path = home/.vim/bundle/vim-markdown
+    url = git://github.com/tpope/vim-markdown.git
