@@ -109,4 +109,3 @@ export GOPATH=$HOME/go-projects
 export PATH=$PATH:$GOPATH/bin
 alias zipalign=~/Library/Android/sdk/build-tools/23.0.2/zipalign
 
-export HOMEBREW_GITHUB_API_TOKEN="f2388f060b886930e945f37a27fd842fbc9a7108"
