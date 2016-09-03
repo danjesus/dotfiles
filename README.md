@@ -1,6 +1,6 @@
 # My personal dotfiles inspired by homesick
 
-### Vim modules
+## Vim modules
 
 Modules installed:
  - [NERD Tree](https://github.com/scrooloose/nerdtree)
@@ -16,7 +16,7 @@ Modules installed:
  - [Vim Javascript](https://github.com/pangloss/vim-javascript)
  - [Vim Proc](https://github.com/Shougo/vimproc.vim)
 
-### Acknowledgments:
+## :heart: Acknowledgments:
 
 This dotfiles is inspired by homesick implementation of Nelson Senna.
 
