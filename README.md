@@ -15,6 +15,7 @@ Modules installed:
  - [Vim Js Indent](https://github.com/jason0x43/vim-js-indent)
  - [Vim Javascript](https://github.com/pangloss/vim-javascript)
  - [Vim Proc](https://github.com/Shougo/vimproc.vim)
+ - [Git Gutter](https://github.com/airblade/vim-gitgutter.git)
 
 ## :heart: Acknowledgments:
 
