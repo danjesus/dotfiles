@@ -106,3 +106,6 @@ function! LightLineMode()
 endfunction
 
 let g:typescript_indent_disable = 1
+set fillchars=""
+hi vertsplit guifg=fg guibg=bg
+hi! VertSplit ctermfg=black ctermbg=black term=NONE
