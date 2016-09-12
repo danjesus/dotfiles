@@ -109,3 +109,10 @@ let g:typescript_indent_disable = 1
 set fillchars=""
 hi vertsplit guifg=fg guibg=bg
 hi! VertSplit ctermfg=black ctermbg=black term=NONE
+
+"vim splits shortcuts
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
