@@ -116,3 +116,8 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
+noremap <Leader>r :call <SID>RunNpmTests()<CR>
+function! s:RunNpmTests()
+    silent! exec "!tmux select-pane -l && tmux send up enter && tmux select-pane -l"
+    redraw!
+endfunction
