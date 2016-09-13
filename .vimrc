@@ -121,3 +121,15 @@ function! s:RunNpmTests()
     silent! exec "!tmux select-pane -l && tmux send up enter && tmux select-pane -l"
     redraw!
 endfunction
+
+"removes trailing spaces
+function TrimWhiteSpace()
+    %s/\s*$//
+    ''
+endfunction
+
+set list listchars=trail:.,extends:>
+autocmd FileWritePre * call TrimWhiteSpace()
+autocmd FileAppendPre * call TrimWhiteSpace()
+autocmd FilterWritePre * call TrimWhiteSpace()
+autocmd BufWritePre * call TrimWhiteSpace()
