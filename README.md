@@ -16,6 +16,7 @@ Modules installed:
  - [Vim Javascript](https://github.com/pangloss/vim-javascript)
  - [Vim Proc](https://github.com/Shougo/vimproc.vim)
  - [Git Gutter](https://github.com/airblade/vim-gitgutter.git)
+ - [Auto Pairs](https://github.com/jiangmiao/auto-pairs)
 
 ## :heart: Acknowledgments:
 
