@@ -34,9 +34,12 @@
 [submodule ".vim/bundle/vimproc.vim"]
     path = .vim/bundle/vimproc.vim
     url = git://github.com/Shougo/vimproc.vim.git
-[submodule "home/.vim/bundle/vim-markdown"]
-    path = home/.vim/bundle/vim-markdown
+[submodule ".vim/bundle/vim-markdown"]
+    path = .vim/bundle/vim-markdown
     url = git://github.com/tpope/vim-markdown.git
 [submodule ".vim/bundle/vim-gitgutter"]
-	path = .vim/bundle/vim-gitgutter
-	url = git://github.com/airblade/vim-gitgutter.git
+    path = .vim/bundle/vim-gitgutter
+    url = git://github.com/airblade/vim-gitgutter.git
+[submodule ".vim/bundle/YouCompleteMe"]
+	path = .vim/bundle/YouCompleteMe
+	url = git://github.com/Valloric/YouCompleteMe.git
