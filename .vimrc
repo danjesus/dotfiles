@@ -128,6 +128,13 @@ function TrimWhiteSpace()
     ''
 endfunction
 
+let g:solarized_termcolors=256
+
+if has('gui_running')
+    set background=dark
+    colorscheme solarized
+endif
+
 set list listchars=trail:.,extends:>
 autocmd FileWritePre * call TrimWhiteSpace()
 autocmd FileAppendPre * call TrimWhiteSpace()
