@@ -55,3 +55,6 @@
 [submodule ".vim/bundle/gruvbox"]
 	path = .vim/bundle/gruvbox
 	url = git://github.com/morhetz/gruvbox.git
+[submodule ".zsh/zsh-autosuggestions"]
+	path = .zsh/zsh-autosuggestions
+	url = git://github.com/zsh-users/zsh-autosuggestions
