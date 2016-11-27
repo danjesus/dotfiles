@@ -68,12 +68,12 @@ function TrimWhiteSpace()
     ''
 endfunction
 
-let g:solarized_termcolors=256
-
-if has('gui_running')
-    set background=dark
-    colorscheme solarized
-endif
+"vim theme
+"set termguicolors
+set background=dark
+colorscheme gruvbox
+let g:gruvbox_contrast_dark='soft'
+let g:gruvbox_termcolors=16
 
 set list listchars=trail:.,extends:>
 autocmd FileWritePre * call TrimWhiteSpace()
@@ -84,3 +84,4 @@ autocmd BufWritePre * call TrimWhiteSpace()
 let g:tmuxline_preset = 'tmux'
 let g:tmuxline_powerline_separators = 0
 let g:airline#extensions#tabline#enabled = 1
+
