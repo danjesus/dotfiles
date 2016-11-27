@@ -20,6 +20,10 @@ Modules installed:
 
 ## :heart: Acknowledgments:
 
+## ZSH Plugins enabled
+
+ - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+
 This dotfiles is inspired by homesick implementation of Nelson Senna.
 
 Nelson Senna [@nelsonsar](https://github.com/nelsonsar)
