@@ -69,11 +69,10 @@ function TrimWhiteSpace()
 endfunction
 
 "vim theme
-"set termguicolors
 set background=dark
-colorscheme gruvbox
-let g:gruvbox_contrast_dark='soft'
-let g:gruvbox_termcolors=16
+colorscheme solarized
+"let g:gruvbox_contrast_dark='soft'
+"let g:gruvbox_termcolors=16
 
 set list listchars=trail:.,extends:>
 autocmd FileWritePre * call TrimWhiteSpace()
